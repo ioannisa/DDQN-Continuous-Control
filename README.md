@@ -101,10 +101,14 @@ Other useful utilities will also be installed if you follow these directions, in
 
 ### Instructions
 
-Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
+Run the notebooks 
+* `Continuous_Control_1_agent.ipynb` for the 1 Agent Solution  
+* `Continuous_Control_20_agents.ipynb` for the 20 Agents Solution 
+
+*Both notebooks are identical, they simply call the two environment variations, where you can see for the exactly same architecture, how the two different approaches compare to training and stability*
 
 ### Report
 
-Other than than running the notebook (Navigation.ipynb) which is fully doumented, I include for your convenience a `Report.pdf` file which contains the detailed instructions about how I approached this problem, leaving out the code and all complexities.
+Other than than running the notebooks, I include for your convenience a `Report.pdf` file which contains the detailed instructions about how I approached this problem, leaving out the code and all complexities, but also compares how the exactly same architecture is affected by the 1 and the 20 agents environments during training.
 
 Use this report file to your understanding about what really happens under the hood, without the hassle of the code.
