@@ -52,15 +52,15 @@ The task is episodic, and in order to solve the environment,  the agent must ave
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/one_agent/Reacher_Linux_NoVis.zip) (version 1) or [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P2/Reacher/Reacher_Linux_NoVis.zip) (version 2) to obtain the "headless" version of the environment.  You will **not** be able to watch the agent without enabling a virtual screen, but you will be able to train the agent.  (_To watch the agent, you should follow the instructions to [enable a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above._)
 
    **I solved the environment using both the 1 and 20 agents approach**
-   For my environment wich was *windows based*, I downloaded both versions of the agents, and stored them with the following folder names:
-  `Reacher_01_Windows_x86_64`
-  `Reacher_20_Windows_x86_64`
+   For my environment which was *windows based*, I downloaded both versions of the agents, and stored them with the following folder names:
+  * `Reacher_01_Windows_x86_64`
+  * `Reacher_20_Windows_x86_64`
   
-   The code base is exactly the same in order to take into advantage both solutions. Simply it deals with `x-agents` list, 
+   The code base has been tailored to advantage of both solutions. It simply deals with `x-agents` list, 
    * 1 agent solution as a `1-size length` list and the 
    * 20 agents solution as a `20-size length` list
 
-3. Makse sure you have downloaded and installed Anaconda. You can download it from https://www.anaconda.com/distribution/
+3. Make sure you have downloaded and installed Anaconda. You can download it from https://www.anaconda.com/distribution/
 
 4. Now you can create your environment. Since this environment refers to a Udacity project for the Deep Reinforcement Learning Nanodegree, lets call our environment `DRLND`.
 
